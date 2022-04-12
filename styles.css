@@ -1,0 +1,152 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 40vw;
+    height: 400px;
+    /* background-color: darkcyan; */
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+.container h1 {
+    font-size:1.3em;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px #fff;
+    margin-bottom:40px;
+}
+
+.div-show {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding:20px;
+    display:flex;
+    align-items: center; 
+    box-shadow: 2px 3px 7px 0px;  
+}
+
+.password-section {
+    width: 85%;
+    font-size: 1em;
+    display:flex;
+    align-items: center;   
+}
+
+.icons {
+    display:flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+.icons:hover {
+    cursor: pointer;
+}
+
+.icons img {
+    width: 20px;
+    margin-left:15px;
+}
+
+.div-config {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding:20px;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 7px 0px
+}
+
+.text-personalize {
+    font-size: 0.9em;
+    margin: 0;
+} 
+
+.specific-config {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.select-lenght {
+    display:flex;
+    flex-direction: column;
+}
+
+.select-config {
+    width: 33%;
+    font-size:0.7em;
+}
+
+.h6text {
+    font-size:1em;
+}
+
+
+/* Responsive  */
+
+/* @media (max-width: 991px) and (min-width: 575.98px) {
+
+    .container {
+        width: 50%;
+    }
+    .specific-config {
+        display:flex;
+        flex-direction: column;
+        width:80%
+    }
+    .select-config{
+        width: 80%;
+        font-size: 1.2em;
+    }
+    .text-personalize {
+        font-size: 1.2em;
+    } 
+    .select-config h6 {
+        font-size: 1.9em;
+    
+    }
+}  */
+
+@media (max-width: 575px) {
+
+    .container {
+        width: 80%;
+    }
+ 
+    .specific-config {
+        display:flex;
+        flex-direction: column;
+        width:80%
+    }
+
+    .select-config{
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .text-personalize {
+        font-size: 1em;
+    } 
+
+
+
+} 
